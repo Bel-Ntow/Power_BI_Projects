@@ -1,18 +1,66 @@
-## Tourism Data Analysis
+# Community Health Program Monitoring Analysis
 
-In this project, I analyzed tourism data to identify regional trends in visitor numbers, revenue, and customer satisfaction. The insights gained can inform strategic decisions to improve tourism performance across regions.
+### Overview
+This project is a **community health program monitoring and evaluation dashboard** built using Power BI. It analyzes beneficiary participation, program outcomes, satisfaction levels, and resource utilization across multiple health program sites from **January to June 2026**. The model is also designed with a **date table to support automatic updates when new data is added**, ensuring it reflects the current state of the program.
 
-### Objective
-To analyze tourism data to identify key regional trends, customer behavior, and areas for improvement in the tourism industry, supporting better decision-making and growth.
+The goal of this project is to provide insights into program effectiveness, service delivery performance, and beneficiary engagement using interactive KPIs and visual analytics.
 
-### Key Insights
 
-- **Tourist Visits by Region**:  The **South** and **West** regions recorded the highest tourist visits, with **10.5K** and **10.1K** respectively. In contrast, the **East region** underperformed significantly, attracting only **5.6K** visitors. This highlights a need for improved tourism appeal and targeted promotions in the East to draw more visitors.
+### Program Context
+The health program operates across three service delivery sites: **Site A, Site B** and **Site C**  
 
- - **Revenue Distribution by Region**:   **South** and **West** generated the most revenue, contributing **25%** and **24%** respectively. The **East** lagged behind with only **13.32%**. To address this, targeted marketing campaigns and tourism development initiatives in the East region should be prioritized to increase both tourist visits and revenue.
+The program includes four key activity types: **Workshop**, **Counseling**, **Vaccination** and **Home Visit**  
 
-- **Customer Satisfaction**:   The **South** had the highest satisfaction at **4.5**, compared to the **Central region’s 3.9**, which is the lowest. To boost satisfaction, the Central region could benefit from improved service quality, staff training, and better amenities.
 
-- **Seasonality of Tourist Activity**:   Tourist visits peak **mid-year** but decline toward **year-end**, indicating strong seasonality. To mitigate the drop in activity during the off-peak months, introducing off-season promotions and targeted marketing campaigns can help sustain interest and generate steady revenue throughout the year.
+### Key Metrics
 
-  <img src="https://raw.githubusercontent.com/Bel-Ntow/POWER_BI_PROJECTS/main/Tourism_Data_Analysis/Tourism_Data_Analytics_Dashboard.png">
+- Total Beneficiaries: 500  
+- Participation Rate: 81.8%  
+- Outcome Achievement Rate: 67.8%  
+- Follow-up Completion Rate: 60.4%  
+- Average Satisfaction Score: 5.5 / 10  
+- Total Resource Usage (Cost Proxy)  
+
+
+## Key Insights
+
+**1. Overall Performance:** The program recorded a strong participation rate of **81.8%**, indicating high engagement across all service sites. The outcome achievement rate of **67.8%** shows that a significant proportion of beneficiaries benefited from the interventions.
+
+
+**2. Monthly Trends:** Performance varied across the months (January–June 2026), with fluctuations in both participation and outcomes. This highlights the importance of consistent engagement strategies throughout the program cycle.
+
+
+**3. Site Performance:** Site-level analysis shows variation in performance across the three locations. **Site B** recorded the highest participation rate at **84.4%**, while **Site A** achieved the highest outcome rate at **69.4%**. **Site C** showed slightly lower outcome performance at **65.9%**, suggesting differences in service delivery efficiency across sites.
+
+
+
+**4. Activity Performance:** **Counseling** emerged as the best-performing activity, with the highest participation rate (85.7%) and strong outcomes (70.6%). **Home visits** also demonstrated consistent performance across both engagement and outcomes. **Vaccination** activities showed moderate performance, while workshops recorded the lowest outcome efficiency at 63.4%.
+
+
+**5. Resource Utilization:** **Workshops** were identified as the most resource-intensive activity type, followed by **counseling** and **vaccination services**. **Home visits** required the least resources, making them the most cost-efficient activity within the program.
+
+
+
+**6. Demographics:** The largest beneficiary age group was **36–50** years, with **176 participants**. The gender distribution was relatively balanced, with **53.2% male** and **46.8% female**, indicating fairly equitable program reach across genders.
+
+
+---
+### Tools Used
+- Power BI  
+- Power Query (Data Cleaning & Transformation)  
+- DAX (Measures & KPIs)  
+- Data Modeling (Star Schema with Date Table)  
+
+
+### Purpose
+This project demonstrates skills in:
+
+- Data cleaning and transformation  
+- KPI development and tracking  
+- Time series analysis  
+- Health program performance evaluation  
+- Data storytelling using Power BI  
+
+
+### Dashboard Preview
+![Community Health Program Dashboard](Community_Health_Program_Dashboard_Image.png)
