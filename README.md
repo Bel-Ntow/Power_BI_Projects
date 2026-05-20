@@ -13,7 +13,7 @@ This repository contains a collection of Power BI projects where I transform raw
 - [NovaPay Transaction Insights](./NovaPay_Transaction_Insights/README.md)  
  Analysis of transaction data to identify growth opportunities and improve customer experience.
 
-- [Tourism Data Analysis](./Tourism_Data_Analysis/README.md)  
+- [Community Health Program Monitoring Analysis](./Community Health Program Monitoring Analysis/README.md)  
   Analysis of tourism trends and revenue to inform marketing efforts.
 
 
